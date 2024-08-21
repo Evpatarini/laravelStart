@@ -66,7 +66,7 @@
     <body>
         <div class="flex-center position-ref full-height">
             @php 
-                use App\MyCustomStuff\MyClass;
+                use App\MyCustomStuff\CHTML;
                 $oHTML = new CHTML();
                 echo $oHTML->divInputDate('Todays Date','saveDate','');
             @endphp
