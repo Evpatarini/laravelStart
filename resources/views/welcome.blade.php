@@ -65,11 +65,7 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @php 
-                use app\myCustomStuff\CHTML;
-                $oHTML = new CHTML();
-                echo $oHTML->divInputDate('Todays Date','saveDate','');
-            @endphp
+
             <h2>Ricos App</h2>
         </div>
     </body>
