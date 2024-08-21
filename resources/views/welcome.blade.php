@@ -70,7 +70,7 @@
                 use App\MyCustomStuff\MyClass;
                 $oHTML = new CHTML();
                 echo $oHTML->divInputDate('Todays Date','saveDate','');
-            @phpend
+            @endphp
             <h2>Ricos App</h2>
         </div>
     </body>
