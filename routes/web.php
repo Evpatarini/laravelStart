@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use app\myCustomStuff\CHTML;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $oHTML = new CHTML();
+    echo $oHTML->divInputDate('Todays Date','saveDate','');
     return view('welcome');
 });
