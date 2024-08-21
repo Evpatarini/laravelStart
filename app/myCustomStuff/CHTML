@@ -36,7 +36,7 @@
 //  There is an initForm() javascript method that is called when the form is created.
 //
 // --------------------------------------------------------
-namespace app\MyCustomStuff;
+namespace app\myCustomStuff;
 
 class CHTML
 {
