@@ -1,5 +1,5 @@
 <?php
-
+namespace routes;
 use Illuminate\Support\Facades\Route;
 use app\myCustomStuff\CHTML;
 /*
@@ -14,6 +14,7 @@ use app\myCustomStuff\CHTML;
 */
 
 Route::get('/', function () {
+    require_once(dirname(__FILE__) . '/../app/myCustomStuff/CHTML.php');
     $oHTML = new CHTML();
     echo $oHTML->divInputDate('Todays Date','saveDate','');
     return view('welcome');
